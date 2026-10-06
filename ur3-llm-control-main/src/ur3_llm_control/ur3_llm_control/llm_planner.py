@@ -26,7 +26,7 @@ class PlannerError(RuntimeError):
 class LLMPlanner:
     def __init__(self, endpoint="https://9router.com/v1/chat/completions",
                  model="gpt-4o-mini", api_key="", timeout=30.0,
-                 student_id="23020749"):
+                 student_id="23020770"):
         self.endpoint = endpoint
         self.model = model
         self.api_key = api_key or os.environ.get("NINEROUTER_API_KEY", "")
