@@ -18,7 +18,7 @@ class LLMTaskNode(Node):
             ("endpoint", "https://9router.com/v1/chat/completions"),
             ("model", "gpt-4o-mini"), ("execute", True),
             ("group_name", "ur_manipulator"),
-            ("student_id", "23020749"),
+            ("student_id", "23020770"),
         ):
             self.declare_parameter(name, default)
         self.done = threading.Event()
