@@ -33,6 +33,6 @@ Với mã số sinh viên `23020770`, quy tắc ánh xạ mặc định được
 Cài đặt các gói phụ thuộc được khai báo trong workspace bằng `rosdep`:
 
 ```bash
-cd ~/ur3_buoi2
+cd ~/ur3-llm-control-main
 source /opt/ros/humble/setup.bash
 rosdep install --from-paths src --ignore-src -r -y
